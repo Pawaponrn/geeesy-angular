@@ -1,0 +1,20 @@
+<form [formGroup]="angularForm">
+    <h4>Angular Form</h4>
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" formControlName="email" class="form-control">
+
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" formControlName="password" class="form-control">
+    
+    <label for="exampleInputPassword1">Confirm Password</label>
+    <input type="password" formControlName="confirmpassword" class="form-control">
+
+    <div class="notify"> 
+        <span>Notification By</span>
+        <input type="radio" formControlName="notifyemail" name="notify" value="email" checked>
+        <label class="labelEmail">Email</label>
+        <input type="radio" formControlName="notifytext" name="notify" value="text">
+        <label class="labelText">Text</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>

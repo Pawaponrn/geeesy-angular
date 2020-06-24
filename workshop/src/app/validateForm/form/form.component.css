@@ -1,0 +1,16 @@
+form {
+    width: 30rem;
+    margin: 10rem auto;
+}
+
+h4 {
+    text-align: center;
+}
+
+.notify {
+    margin: 1rem auto;
+}
+
+input[type="radio"] {
+    margin: auto 2rem;
+}
